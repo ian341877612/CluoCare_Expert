@@ -1301,7 +1301,7 @@ SSPullToRefreshViewDelegate
     
     self.selectedDate = [NSDate date];
     [self.chooseDateButton setTitle:NSLocalizedString(@"Select By Month",nil) forState:UIControlStateNormal];
-    self.trackerChart.sizePoint = 4;
+    self.trackerChart.sizePoint = 1;
     
     [self requestDetectLine];
 }
