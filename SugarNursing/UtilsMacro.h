@@ -72,7 +72,7 @@
 
 /*  For Debug  */
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = LOG_LEVEL_OFF;
 
 
 

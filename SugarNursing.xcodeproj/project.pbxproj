@@ -1477,8 +1477,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: hanming zhang (232Z2BKCNF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hanming zhang (232Z2BKCNF)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: hanming zhang (232Z2BKCNF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SugarNursing",
@@ -1492,7 +1493,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = SugarNursing;
-				PROVISIONING_PROFILE = "8a8b1e7e-5414-4332-a913-020602435456";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1519,7 +1520,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = SugarNursing;
-				PROVISIONING_PROFILE = "8a8b1e7e-5414-4332-a913-020602435456";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
